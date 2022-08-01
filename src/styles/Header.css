@@ -1,0 +1,59 @@
+header>h4 {
+    background-color: #6C14C7;
+    width: 13em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: #fff;
+    animation: welcome 0.5s ease-in-out;
+}
+
+header>.knowledge,
+header>.program {
+    background-color: transparent;
+    color: #222F5D;
+}
+
+header>.member-header,
+header>.benefit {
+    background-color: #EFF9FD;
+    width: 8em;
+    color: #6ED2EF;
+}
+
+header>.member-header {
+    width: 11em;
+}
+
+header>.testimonial-header,
+header>.about {
+    background-color: #FDF0ED;
+    color: #FF8560;
+}
+
+header>.knowledge {
+    background-color: #EEE8F8;
+}
+
+header>.hero-header {
+    width: 18em;
+}
+
+
+
+
+
+@keyframes welcome {
+    0% {
+        transform: translateX(-100%);
+    }
+
+    50% {
+        transform: translateX(10%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}

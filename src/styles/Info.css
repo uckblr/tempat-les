@@ -1,0 +1,28 @@
+.info-section {
+    background-color: #222F5D;
+    box-shadow: 0 1em 1em #F4F7FB;
+    width: 90%;
+    box-sizing: border-box;
+    border-radius: .8em;
+    padding: 4em 2em;
+    margin: 20em auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info>h2 {
+    color: #C9CBD7;
+    font-weight: 600;
+}
+
+.info>img {
+    width: 5em;
+}

@@ -1,0 +1,94 @@
+.header-banner {
+    width: 90%;
+    margin: 10em auto;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 5em;
+}
+
+.header-banner.knowledge {
+    flex-direction: row-reverse;
+}
+
+.header-banner.knowledge>img {
+    margin: 0;
+}
+
+.header-banner>img {
+    width: 40%;
+    height: auto;
+    margin-right: 2.5em;
+}
+
+.header-banner>article>h1 {
+    width: 60%;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #222F5D;
+}
+
+.header-banner>article>h1>span {
+    color: #FF8560;
+}
+
+.header-banner>article>h1>.knowledge-title {
+    color: #6100C1;
+}
+
+.header-banner>article>p {
+    line-height: 1.5em;
+    color: #A1A1B0;
+    margin-bottom: 2em;
+}
+
+.link {
+    background-color: #FF8560;
+    width: 10em;
+    height: 2.5em;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1em;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+.knowledge-btn {
+    background-color: #6100C1;
+}
+
+.link:hover {
+    background-color: #FDF0ED;
+    color: #FF8560;
+}
+
+
+.knowledge-btn:hover {
+    background-color: #e7d9ff;
+    color: #6100C1;
+}
+
+@media screen and (max-width: 768px) {
+    .header-banner {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5em;
+        flex-wrap: wrap;
+        margin: -15em auto;
+    }
+
+    .header-banner>img {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .header-banner>article>h1 {
+        width: 100%;
+    }
+}

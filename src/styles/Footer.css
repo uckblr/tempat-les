@@ -1,0 +1,39 @@
+footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+footer>header {
+    width: 20%;
+}
+
+.footer-link>h3 {
+    color: #222F5D;
+}
+
+.footer-link>ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer>header>p {
+    width: 18em;
+}
+
+footer>header>p,
+.footer-link>ul>li>a {
+    display: block;
+    color: #9D9DAC;
+    text-decoration: none;
+    margin-bottom: 1em;
+}
+
+@media screen and (max-width: 768px) {
+    footer>header {
+        width: 100%;
+    }
+}

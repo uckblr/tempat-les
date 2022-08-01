@@ -1,0 +1,76 @@
+.knowledge-section {
+    width: 90%;
+    margin: -10em auto;
+    display: flex;
+    align-items: center;
+}
+
+.knowledge-section>img {
+    width: 40%;
+    margin-left: 4.8em;
+}
+
+.knowledge-content>h4 {
+    background-color: #EEE8F8;
+    width: 10em;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-radius: 1em;
+    color: #222F5D;
+}
+
+.knowledge-content>h1 {
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: 700;
+    color: #222F5D;
+}
+
+.knowledge-content>h1>span {
+    color: #6100C1;
+}
+
+.knowledge-content>p {
+    line-height: 1.5em;
+    color: #9D9DAC;
+}
+
+.knowledge-btn {
+    background-color: #6100C1;
+    width: 10em;
+    height: 2.5em;
+    border: none;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+    color: #fff;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 1em;
+}
+
+.knowledge-btn:hover {
+    background-color: #e7d9ff;
+    color: #6100C1;
+}
+
+@media screen and (max-width: 768px) {
+    .knowledge-section {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 0.5em;
+        flex-wrap: wrap;
+        margin: -15em auto;
+    }
+
+    .knowledge-section>img {
+        width: 100%;
+        margin: 5em 0 0 0;
+    }
+
+    .knowledge-content>h1 {
+        width: 100%;
+
+    }
+}

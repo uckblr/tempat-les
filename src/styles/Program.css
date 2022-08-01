@@ -1,0 +1,121 @@
+/* banner */
+.program-banner-section {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 1em 1em #F6F6FB;
+    width: 90%;
+    border-radius: 2em;
+    top: 41em;
+    left: 4em;
+    box-sizing: content-box;
+    padding: 0 1em;
+}
+
+.program-banner-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.program-banner-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.program-banner-item:hover {
+    transform: scale(1.1);
+}
+
+.program-banner-item-img {
+    width: 5em;
+    height: 5em;
+}
+
+.program-banner-item>p {
+    line-height: 1.5em;
+    color: #A1A1B0;
+}
+
+/* prisma hitung */
+.prisma-hitung-section {
+    margin: -5em 0 170em 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.prisma-hitung-item {
+    width: 90%;
+    margin: 5em auto;
+    display: flex;
+    box-sizing: border-box;
+    padding: 0.5em;
+    border-radius: 1em;
+    align-items: center;
+    border: .1em dashed transparent;
+}
+
+.prisma-hitung-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.prisma-hitung-item:hover {
+    border: .1em dashed #FF8560;
+    box-shadow: 0 1em 1em #F6F6FB;
+}
+
+.desc>h1 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #6ED2EF;
+}
+
+.desc>p {
+    font-size: 1em;
+    color: #A1A1B0;
+}
+
+.prisma-hitung-item>img {
+    width: 15em;
+    margin-right: 5em;
+}
+
+.prisma-hitung-item:nth-child(even)>img {
+    margin-right: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .program-banner-section {
+        width: 85%;
+        top: 50em;
+        left: .9em;
+    }
+
+    .program-banner-item {
+        width: 50%;
+    }
+
+    .prisma-hitung-section {
+        margin-bottom: 300em;
+    }
+
+    .prisma-hitung-section>header {
+        margin-top: 15em;
+        width: 90%;
+    }
+
+    .prisma-hitung-item,
+    .prisma-hitung-item:nth-child(even) {
+        flex-direction: column;
+    }
+}
